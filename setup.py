@@ -2,8 +2,8 @@ from distutils.core import setup
 
 setup(
     name='IMAPY-music',
-    version='0.1.0-alpha',
-    packages=['imapy',],
+    version='0.1.4-alpha',
+    packages=['imapy_music', 'imapy_music.scripts'],
 
     long_description=open('README.md').read(),
 
