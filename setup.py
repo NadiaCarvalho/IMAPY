@@ -10,5 +10,5 @@ setup(
     url='https://github.com/NadiaCarvalho/IMAPY',
     author='Nádia Carvalho',
     author_email='nadiacarvalho118@gmail.com',
-    license='GNU',
+    license='GNU Lesser General Public License v3.0',
 )
