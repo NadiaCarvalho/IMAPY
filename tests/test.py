@@ -6,6 +6,7 @@ if __name__ == '__main__':
     ima_calculator = IMA(onsets=onsets)
 
     # Recalculate Weights with different parameters:
-    # ima_calculator.calculateWeights(onsets, 3, 2, 1, 2, 1)
+    ima_calculator.setParameters(period=10)
+    ima_calculator.calculateWeights(onsets)
 
     print(ima_calculator.calculate_IMA_score())
