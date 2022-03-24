@@ -34,6 +34,12 @@ class IMA():
     def setParameters(self, period=2, length=2, offset=0, resolution=1, maxPeriod=0):
         """
         """
+        assert isinstance(period, int), 'Period must be an integer value'
+        assert isinstance(length, int), 'Length must be an integer value'
+        assert isinstance(offset, int), 'Length must be an integer value'
+        assert isinstance(resolution, int), 'Length must be an integer value'
+        assert isinstance(maxPeriod, int), 'Length must be an integer value'
+
         self.mw = MetroWeights_Mazzola(
             period, length, offset, resolution, maxPeriod)
 
@@ -41,6 +47,7 @@ class IMA():
         """
         Calculates Inner Metric Weights for a list of onsets
         """
+        assert all(isinstance(x, int) for x in onsets), 'Your onset list is composer of values that are not integers'
         self.weight_set = self.mw.getWeights(onsets)
 
     def calculate_IMA_score(self, fm='.6f') -> list[float]:
