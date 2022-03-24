@@ -39,6 +39,7 @@ class IMA():
 
     def calculateWeights(self, onsets):
         """
+        Calculates Inner Metric Weights for a list of onsets
         """
         self.weight_set = self.mw.getWeights(onsets)
 
