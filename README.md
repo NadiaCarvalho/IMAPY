@@ -1,6 +1,8 @@
-# imapy
+# IMAPY
 
 Python library to perform Inner Metric Analysis [1] on a series on onsets.
+
+pypi link: https://pypi.org/project/IMAPY-music/
 
 Originally coded in Java by Chris Dyer (and in C++ by Peter van Kranenburg).
 
