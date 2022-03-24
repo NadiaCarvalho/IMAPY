@@ -1,4 +1,4 @@
-# IMAPY
+# IMAPY-music
 
 [![Build and Deploy IMAPY](https://github.com/NadiaCarvalho/IMAPY/actions/workflows/build-deploy-imapy.yml/badge.svg)](https://github.com/NadiaCarvalho/IMAPY/actions/workflows/build-deploy-imapy.yml)
 
